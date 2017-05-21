@@ -1,0 +1,22 @@
+<ion-view>
+<ion-content  class="form-bg">
+	<div class="">
+	    <form class="title padding col">
+	    <h3 class="40">LogIn</h3>
+	    <hr>
+	      <div class="">
+	        <label class="padding">
+	          <input type="email" ng-model="loginData.email" name="email" placeholder="Mail" class="col" >
+	        </label>
+	        <label class="padding">
+	          <input type="password" ng-model="loginData.password" name="password" placeholder="Password" class="col" >
+	        </label>
+	        <div class="row">
+	          <button class="button button-balanced" ng-click="login(loginData)" class="col-40">LogIn</button>
+	          <a href="#/signup"  class="col-offset-10"><button class="button button-danger" ng-click="">SignUp</button></a>
+	         </div> 
+	      </div>
+	    </form>
+    </div>
+</ion-content>
+</ion-view>

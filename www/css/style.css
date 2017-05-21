@@ -1,0 +1,241 @@
+/* Empty. Add your own CSS if you like */
+
+.form-background a{
+	text-decoration: none;
+	font-size:18px;
+	line-height: 2;
+}
+.form-background{
+	background: url(../img/back.jpg) no-repeat center center fixed !important;
+        background-size: cover !important;
+}
+
+.bar-assertive .title{
+	font-weight: 600 !important;
+	font-size:19px;
+}
+
+.form-background input{
+	background:#445162 !important;
+    color: white !important;
+    padding-left:10px !important;
+    padding-right: 10px !important;
+    padding-bottom:5px !important;
+    height: 40px !important;
+}
+
+
+form i{
+	font-size:28px !important;
+	color: white !important;
+	background-color: #3c444f !important;
+	width:42px;
+	padding-left:5px;
+	text-align: center;
+}
+
+::-webkit-input-placeholder { 
+  color: #ffffff !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ffffff !important;
+}
+
+.search ::-webkit-input-placeholder { 
+  color: #000000 !important;
+}
+.search ::-moz-placeholder { /* Firefox 19+ */
+  color: #000000 !important;
+}
+
+form button{
+	background: #727e7e !important;
+	height:30px !important;
+	margin-left: 10px !important;
+}
+.data div{
+	float: left;
+}
+.heading{
+	margin-left:20px;
+}
+.cover{
+	display: flex !important;
+    flex-direction:column;
+    text-align: center;
+	background: url(../img/covers.jpg) no-repeat  !important;
+    background-size: cover !important;
+    height: 200px;
+}
+.profile-photo h4{
+
+	color: white !important;
+	text-align: center;
+	text-shadow:0px 1px 1px black;
+}
+.profile-photo img{
+	width: 80px !important;
+	height: 80px !important;
+	border-radius: 50%;	
+	border: 2px solid white;
+}
+
+.details i{
+	font-size:30px !important;
+	float: left;
+}
+.space{
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.form-bg{
+	background: url(../img/bg.jpg) center center  !important;
+    background-size: cover !important;
+
+}
+.form-bg a{
+	text-decoration: none;
+}
+
+.form-bg form{
+	background-color:#cfcfcf !important;
+	border: 6px solid #4b8ec2;
+	border-radius: 3px;
+}
+.form-background form button{
+	color: #ffffff !important;
+	font-size: 16px;
+	font-weight:600 !important;
+    background-color: #3c88d3 !important;
+    font-weight:600;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.title h3{
+	color:#838383 !important;
+    font-size:25px !important;
+    text-shadow:1px 1px  1px  #ffffff;
+    font-weight:600;
+}
+.signup input{
+    color: #ffffff !important;
+    background-color: #616161;
+    padding-left:10px !important;
+    height:42px !important;
+    font-size:16px !important;
+    border-radius:2px !important;
+}
+.title input{
+    color: #ffffff !important;
+    background-color: #616161;
+    padding-left:10px !important;
+    height:42px !important;
+    font-size:16px !important;
+    border-radius:2px !important;
+}
+.title button{
+    color: #ffffff !important;
+    background-color: #3c88d3 !important;
+    font-size: 16px;
+    font-weight:600;
+    width:120px;
+    text-align: center;
+
+}
+
+
+.form-bg{
+	padding-top: 180px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.form-bg form a button{
+	background-color: #e64b50 !important;	
+}
+.form-bg img{
+	float: left;
+}
+hr{
+	color:#dbdbdb;
+}
+
+.logo i{
+	text-align:center;
+}
+
+.logo i{
+	color:#e04646;
+}
+
+.details .ion-powers{
+    color: #ffffff !important;
+    background-color: #e64b50 !important;
+    font-size: 16px;
+    font-weight:600 !important;
+    width:120px;
+    text-align: center;
+    margin-top: 30px;
+}
+.store-data i{
+	float: left;
+	font-size:50px;
+}
+.store-data .account-type{
+	margin-left: 30px !important;
+}
+
+.store-data{
+	border-left:4px solid #da5a47;
+}
+.store-data .account-type h2{
+	margin-left: 30px !important;
+	font-size:18px !important;
+	color: #00a78e; 
+}
+.button-positive{
+	background-color: #204056 !important;
+} 
+.button-positive i{
+	color: #da5a47 !important;
+} 
+.ion-lock-combination{
+	color: #204056 !important;
+}
+.search{
+	
+}
+.search i{
+	background-color: #f65a5b;
+	width: 100%;
+	display: flex !important;
+	flex-direction:column !important;
+	text-align: center;
+	padding-top:6px; 
+	font-weight:700 !important;
+	color: #ffffff;
+	border-right:2px solid black;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+.search input{
+	height:38px;
+	border-left:2px solid black;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+.details ion-item{
+	border:none !important;
+}
+.details ion-item i{
+	color: #00a0af;
+}
+.ion-ios-color-wands{
+	color: #fd5c63;
+    font-size: 16px;
+    font-weight:400 !important;
+    width:120px;
+    margin-top: 30px;
+}
+

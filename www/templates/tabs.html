@@ -1,0 +1,29 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<div class="bar bar-header bar-assertive">
+  <div class="h1 title">Password Storage</div>
+</div>
+
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+
+  <!-- Dashboard Tab -->
+  <ion-tab title="CREATE" icon-off="icon icon ion-compose" icon-on="icon icon ion-compose" href="#/tab/dash" >
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Chats Tab -->
+  <ion-tab title="DATA" icon-off="icon icon ion-briefcase" icon-on="icon icon ion-briefcase" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="PROFILE" icon-off="icon ion-person" icon-on="icon ion-person" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>

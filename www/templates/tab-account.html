@@ -1,0 +1,46 @@
+<ion-view view-title="PROFILE">
+<ion-content class="has-header"  ng-repeat="user in users|filter:Uid">
+    <div class="cover padding">
+    	<div class="profile-photo padding ">
+    		<img src="img/ben.png">
+    		<h4>{{user.Username}}</h4>
+    	</div>
+    </div>
+
+    <div class="details padding col">
+    	<ion-list class="">
+            <ion-item class="item item-icon-left">
+                    <i class="icon ion-person"></i>
+                     {{user.Username}}
+            </ion-item>
+        	<ion-item class="item item-icon-left">
+				    <i class="icon ion-ios-email"></i>
+				    {{user.Email}}
+        	</ion-item>
+        	<ion-item class="item item-icon-left">
+				    <i class="icon ion-person-add"></i>
+				    Change Profile Picture
+        	</ion-item>
+    	</ion-list>
+        <div class="row">
+	  	<a href="#" class="col col">
+	  		<button class="button button-positive button-icon icon ion-ios-color-wands"  ng-click="updated=!updated"> Edit</button>
+	  	</a>
+        <a href="#" class="col col-offset-10">
+            <button class="button button-icon icon ion-powers" ng-click="logout()"> Logout</button>
+        </a>
+        </div>
+        <form class="" ng-show="updated" ng-init="updated=true">
+            <label>
+                    Username:<input type="text" ng-model="" ng-value="user.Username">
+            </label>
+            <label>
+                    Email:<input type="mail" ng-model="" ng-value="user.Email">
+            </label>
+            <label>
+                    Change Profile Picture:<input type="text" ng-model="" value="ben">
+            </label>
+        </form>
+    </div>
+</ion-content>
+</ion-view>

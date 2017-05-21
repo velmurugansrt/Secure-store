@@ -1,0 +1,21 @@
+<ion-view view-title="DATA">
+  <ion-content class="has-header">
+    <ion-list class="" can-swipe="listCanSwipe">
+        <div class="search padding">
+          <label class="row">
+            <input type="text" ng-model="search" placeholder="  Search here" class="col-80"><i class="">Search</i>
+          </label>
+        </div>
+        <ion-item class="store-data" ng-repeat="store in stores|filter:Uid|filter:search">
+            <i class="ion-lock-combination"></i>
+            <div class="space account-type" ng-click="view(store)">
+              <h2> {{store.Accounttype}} </h2>
+            </div>
+              <ion-option-button class="button-positive" ng-click="delete(store)">
+                <i class="button icon button-icon ion-android-delete  " ng-click="delete(store)"></i>
+              </ion-option-button>
+        </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
